@@ -1,12 +1,12 @@
 :root {
-  --ink: #2f3350;        /* dark navy — matches the site's nav text & logo */
-  --ink-soft: #5b5f7a;
-  --cream: #f5ede0;      /* warm ivory — matches the site's header/background */
-  --cream-card: #fdf8f0;
-  --terracotta: #a8603d; /* matches the "SHOP NOW" button color */
-  --rust: #7c4022;       /* darker shade for hover/emphasis */
-  --olive: #8a7355;      /* warm neutral for small labels */
-  --line: #e6d9c3;
+  --ink: #111844;        /* darkest navy — headings & logo */
+  --ink-soft: #4B5694;   /* secondary text */
+  --cream: #EAE0CF;      /* warm background */
+  --cream-card: #f8f3e8; /* lighter tint for cards/inputs */
+  --terracotta: #4B5694; /* primary button color */
+  --rust: #111844;       /* hover/emphasis, countdown numbers */
+  --olive: #7288AE;      /* labels, socials, secondary accent */
+  --line: #d9cdb2;       /* borders, derived from cream */
 }
 
 * {
@@ -283,7 +283,7 @@ footer {
   }
 
   h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 
