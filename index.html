@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARAM Candles — Coming Soon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/ComingSoon.css" />
+</head>
+<body>
+
+  <div class="bg-glow"></div>
+
+  <main class="wrapper">
+    <div class="logo">
+      <span class="flame"><img src="assests/Logo.jpeg" alt="ARAM Candles logo"></span>
+      <span class="brand">ARAM</span>
+      <span class="brand-sub">Candles</span>
+    </div>
+
+    <h1>Something special is coming soon</h1>
+    <p class="subtitle">We're handcrafting your new shopping experience. Stay tuned.</p>
+
+    <div class="countdown" id="countdown">
+      <div class="time-box">
+        <span id="days">00</span>
+        <small>Days</small>
+      </div>
+      <div class="time-box">
+        <span id="hours">00</span>
+        <small>Hours</small>
+      </div>
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <small>Minutes</small>
+      </div>
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <small>Seconds</small>
+      </div>
+    </div>
+
+    <form class="notify-form" id="notifyForm">
+      <input
+        type="email"
+        id="emailInput"
+        placeholder="Enter your email"
+        required
+      />
+      <button type="submit">Notify Me</button>
+    </form>
+    <p class="form-message" id="formMessage"></p>
+
+    <div class="socials">
+      <a href="https://www.instagram.com/a_r.a_m/" aria-label="Instagram">Instagram</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> ARAM Candles. All rights reserved.</p>
+  </footer>
+
+  <script src="js/CommingSonn.js"></script>
+</body>
+</html>
